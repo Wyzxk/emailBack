@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+mm0@qarodik)#*=g!&7l*d=@ei=k!$h)su7(51-x6fa#7sv0&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['emailback-4.onrender.com']
 
 
 # Application definition
