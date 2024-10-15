@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework'
+     'corsheaders',
     'sendEmail',
 ]
 
@@ -89,6 +91,14 @@ EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)  # Convierte a booleano
 EMAIL_PORT = config('EMAIL_PORT', cast=int)  # Convierte a entero
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD') 
+
+# CORSHEADERS
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+    'http://127.0.0.1:3000',
+    'https://web.postman.co',  
+    'https://glistening-bublanina-c853d5.netlify.app/',
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
