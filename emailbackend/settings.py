@@ -97,7 +97,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:3000',
     'https://web.postman.co',  
-    'https://glistening-bublanina-c853d5.netlify.app/',
+    'https://glistening-bublanina-c853d5.netlify.app',
 ]
 
 # Password validation
