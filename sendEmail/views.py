@@ -34,3 +34,4 @@ def sendMessage(request):
                 return Response({'error': f'Error al enviar el correo: {str(e)}'}, status=500)
         else:
             return Response({'error': 'Faltan datos en el formulario'}, status=400)
+#unicorn 
